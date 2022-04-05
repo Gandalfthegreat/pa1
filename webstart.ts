@@ -13,7 +13,10 @@ function webStart() {
           return arg;
         },
       },
-      abs: Math.abs
+      abs: Math.abs,
+      max: Math.max,
+      min: Math.min,
+      pow: Math.pow
     };
 
     function renderResult(result: any): void {
